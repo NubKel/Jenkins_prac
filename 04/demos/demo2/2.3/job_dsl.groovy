@@ -13,7 +13,7 @@ for(p in pipelines) {
 	                    name('github')
 	                    url('https://github.com/NubKel/Jenkins_prac.git')
 	                  }
-	                  branch('master')
+	                  branch('main')
 	                  extensions {
 	                  	cloneOptions {
 	                  	  shallow(true)
